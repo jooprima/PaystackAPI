@@ -1,0 +1,19 @@
+{
+  "name": "paystackapi",
+  "version": "1.0.0",
+  "description": "\"Payment Integration with NodeJS\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jooprima/PaystackAPI.git"
+  },
+  "author": "Yohanes Prima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jooprima/PaystackAPI/issues"
+  },
+  "homepage": "https://github.com/jooprima/PaystackAPI#readme"
+}
