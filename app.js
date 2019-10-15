@@ -16,3 +16,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public/")));
 app.set("view engine", pug);
+
+app.get("/", (req, res) => {
+  res.render("index.pug");
+});
+
+app.listen(port, () => {
+  console.log(`App running on port ${port}`);
+});
